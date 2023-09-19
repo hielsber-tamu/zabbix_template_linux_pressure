@@ -1,4 +1,4 @@
-# OS Linux Pressure Stall Information
+# Linux - Pressure Stall Information
 
 ## Description
 
@@ -46,7 +46,6 @@ There are no discovery rules in this template
 
 |Name|Description|Type|Key and additional info|
 |----|-----------|----|-----------------------|
-
 |CPU Pressure Stall Information - 10s Average|The percentage of stalled tasks on the CPU over the last 10s window.|FLOAT|key: psi_mth.cpu.some.avg10, master_item key: vfs.file.contents[/proc/pressure/cpu]|
 |CPU Pressure Stall Information - 60s Average|The percentage of stalled tasks on the CPU over the last 60s window.|FLOAT|key: psi_mth.cpu.some.avg60, master_item key: vfs.file.contents[/proc/pressure/cpu]|
 |CPU Pressure Stall Information - 300s Average|The percentage of stalled tasks on the CPU over the last 300s window.|FLOAT|key: psi_mth.cpu.some.avg300, master_item key: vfs.file.contents[/proc/pressure/cpu]|
